@@ -1,7 +1,6 @@
 function changeRandomAudio() {
     var audio = document.getElementById("myAudio");
     
-    // List of song filenames in the "music" folder
     var songs = [
       "music/AlwaysRememberUsThisWay.mp3",
       "music/BabyOneMoreTime.mp3",
@@ -17,17 +16,13 @@ function changeRandomAudio() {
       "music/TiKToK.mp3",
       "music/Timber.mp3",
       "music/WheneverWherever.mp3",
-      // Add more songs as needed
     ];
     
-     // Select a random song from the array
   var randomIndex = Math.floor(Math.random() * songs.length);
   var randomSong = songs[randomIndex];
   
-  // Change the source of the audio element to the random song
   audio.src = randomSong;
   
-  // Load and play the new song
   audio.load();
   audio.play();
 }
@@ -48,7 +43,6 @@ function selectSong(x) {
         "music/TiKToK.mp3",
         "music/Timber.mp3",
         "music/WheneverWherever.mp3",
-        // Add more songs as needed
       ];
 
     var songSelected = songs[x - 1]
