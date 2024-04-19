@@ -1,0 +1,56 @@
+body {
+    max-height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "monsterrat", sans-serif;
+    
+}
+
+.container {
+
+    max-height: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 90% 10%;
+
+}
+
+.mainpage {
+
+    height: 100%;
+    grid-column: 1 / 1;
+    grid-row: 1 / 1;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    overflow-y: scroll;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #0e0e0e;
+    color: white;
+
+}
+
+footer {
+
+    grid-column: 1 / 1;
+    grid-row: 2 / 2;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    width: 100%;
+
+}
+
+.WhiteGirl {
+
+    width: 50%;
+    left: 0;
+
+}
+
