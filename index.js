@@ -38,6 +38,7 @@ var songs2 = [
   "HipHopMusic/TheMonster.mp3",
   "HipHopMusic/ToLiveAndDieInLA.mp3",
   "HipHopMusic/WhatsTheDifference.mp3",
+  "HipHopMusic/GodIs.mp3"
 ]
 
 function changeRandomAudio() {
