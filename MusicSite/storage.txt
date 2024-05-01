@@ -1,0 +1,4 @@
+<audio id="myAudio" controls onended="changeRandomAudio()" src="">
+                Your browser does not support the audio element.
+            </audio>
+            <i class='bx bx-skip-next bx-lg' onclick="changeRandomAudio()"
