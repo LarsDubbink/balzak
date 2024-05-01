@@ -57,7 +57,7 @@ footer h2{
 
 .lyricsButton {
 
-    text-align: center;
+    justify-content: center;
     height: 50px;
     margin-right: 50px;
     border-radius: 10px;
