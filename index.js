@@ -40,7 +40,7 @@ var songs2 = [
   "HipHopMusic/ToLiveAndDieInLA.mp3",
   "HipHopMusic/WhatsTheDifference.mp3",
   "HipHopMusic/GodIs.mp3",
-  "HipHopMusic/GangstaGangsta"
+  "HipHopMusic/GangstaGangsta.mp3"
 ]
 
 const MusicLyrics = [
